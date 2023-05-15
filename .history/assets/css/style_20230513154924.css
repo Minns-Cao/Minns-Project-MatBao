@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+/* =================Common================== */
+.container-fluid {
+    padding: 0;
+}
+
+/* =================Header================== */
+
+header .borderForSettingsHeader {
+    border-bottom: 2px solid #c4c4c4;
+}
+
+header .bannerTop a {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+header .settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .settings-header .images {
+    display: flex;
+    align-items: center;
+}
+
+header .settings-header .images .changeLogo {
+    display: inline-block;
+    margin-left: 20px;
+    width: 170px;
+    height: 39px;
+    animation: logoChange 5s infinite;
+}
+
+header .settings {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* chooseLanguage */
+header .chooseLanguage {
+    position: relative;
+    width: 100px;
+}
+
+header .chooseLanguage .countryFlag {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.chooseLanguage .languageNow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header .chooseLanguage .languageList {
+    position: absolute;
+    bottom: -95px;
+    left: -10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s linear;
+}
+
+header .chooseLanguage .languageList .countryItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+header .chooseLanguage .nameCountry {
+    font-size: 1.3rem;
+}
+
+header .chooseLanguage .languageList .countryItem:hover {
+    background-color: rgb(240, 183, 91);
+}
+
+.is-show-languageList {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* assitsstant */
+header .assitsstant {
+    display: flex;
+    align-items: center;
+}
+
+header .assitsstant .iconMoreInfo {
+    width: 15px;
+    object-fit: cover;
+}
+
+header .assitsstant span {
+    font-size: 1.3rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+
+/* Supports */
+
+header .supports {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    font-size: 1.3rem;
+    padding-right: 5px;
+    border-right: 1px solid;
+}
+
+/* Buy */
+
+header .buy {
+    display: block;
+    width: 30px;
+}
+
+
+/* Mega-menu */
+header .menu{
+    display: flex;
+}
+
+header .menu .menu-item {
+    padding: 20px 33px 15px 0;
+}
+
+header .menu .menu-item::after {
+    content: '▼';
+    font-size: 8px;
+    color: #d8d8d8;
+}
+
+
+
+
+
+/* ============================================================= */
+
+@keyframes logoChange {
+    0% {
+        background: url(../img/TOP_1_VIET_NAM_02.svg) center no-repeat;
+        background-size: 170px 29px;
+    }
+    49% {
+        background: url(../img/TOP_1_VIET_NAM_02.svg) center no-repeat;
+        background-size: 170px 29px;
+    }
+    50% {
+        background: url(../img/Logo-TOP-100-2023.svg) center no-repeat;
+        background-size: 170px 29px;
+    }
+    99% {
+        background: url(../img/Logo-TOP-100-2023.svg) center no-repeat;
+        background-size: 170px 29px;
+    }
+    100% {
+        background: url(../img/TOP_1_VIET_NAM_02.svg) center no-repeat;
+        background-size: 170px 29px;
+    }
+}
