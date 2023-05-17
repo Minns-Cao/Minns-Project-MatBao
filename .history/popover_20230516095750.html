@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #myButton {
+                position: relative;
+                margin: 300px;
+            }
+            .popover {
+                position: absolute;
+                background-color: #f9f9f9;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <button id="myButton">
+            Popover
+        <span></span>
+    </button>
+
+        <script>
+            // Tạo một popover singleton
+            var popover = null;
+
+            // Xử lý sự kiện click
+            function handleButtonClick() {
+                var button = document.getElementById("myButton");
+                // Nếu popover đang hiển thị, ẩn nó
+                if (popover) {
+                    popover.parentNode.removeChild(popover);
+                    popover = null;
+                    return;
+                }
+
+                // Tạo popover mới
+                popover = document.createElement("div");
+                popover.className = "popover";
+                popover.textContent = "Nội dung popover";
+
+                // Xác định vị trí của nút
+                var buttonRect = button.getBoundingClientRect();
+
+                // Xác định vị trí hiển thị của popover
+                var popoverBottom = 0;
+                var popoverLeft = 20;
+
+                // Đặt vị trí cho popover
+                popover.style.bottom = popoverBottom + "px";
+                popover.style.left = popoverLeft + "px";
+
+                // Thêm popover vào tài liệu
+                button.appendChild(popover);
+            }
+
+            // Lấy phần tử nút
+            var button = document.getElementById("myButton");
+
+            // Lắng nghe sự kiện click
+            button.addEventListener("click", handleButtonClick);
+
+            // Ẩn popover khi bất kỳ nơi nào trên trang được nhấp
+            document.addEventListener("click", function (event) {
+                if (
+                    popover &&
+                    !popover.contains(event.target) &&
+                    event.target !== button
+                ) {
+                    popover.parentNode.removeChild(popover);
+                    popover = null;
+                }
+            });
+        </script>
+    </body>
+</html>

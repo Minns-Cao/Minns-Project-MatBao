@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #myButton {
+                margin: 500px;
+            }
+            .popover {
+                position: absolute;
+                display: block;
+                width: 200px;
+                background-color: #f9f9f9;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <button id="myButton">Popover</button>
+
+        <script>
+            // Lấy phần tử nút
+            var button = document.getElementById("myButton");
+
+            // Tạo phần tử popover
+            var popover = document.createElement("div");
+            popover.className = "popover";
+            popover.textContent =
+                "Trong ví dụ trên, chúng ta tạo một phần tử nút với một popover tùy chỉnh. Khi nút được nhấp, popover sẽ được tạo và hiển thị ngay phía trên nút. Popover sẽ được ẩn khi bất kỳ nơi nào trên trang được nhấp, ngoại trừ nút và popover chính nó.";
+
+            // Hiển thị popover khi nút được nhấp
+            button.addEventListener("click", function () {
+                // Xác định vị trí của nút
+                var buttonRect = button.getBoundingClientRect();
+                console.log(`day la vi tri button`);
+                console.log(buttonRect);
+                console.log(pop)
+                // Xác định vị trí hiển thị của popover
+                var popoverTop = buttonRect.top - popover.offsetHeight - 10;
+                var popoverLeft =
+                    buttonRect.left +
+                    (button.offsetWidth - popover.offsetWidth) / 2;
+
+                // Đặt vị trí cho popover
+                popover.style.top = popoverTop + "px";
+                popover.style.left = popoverLeft + "px";
+
+                // Thêm popover vào tài liệu
+                document.body.appendChild(popover);
+            });
+
+            // Ẩn popover khi bất kỳ nơi nào trên trang được nhấp
+            document.addEventListener("click", function (event) {
+                if (
+                    !popover.contains(event.target) &&
+                    event.target !== button
+                ) {
+                    popover.parentNode.removeChild(popover);
+                }
+            });
+        </script>
+    </body>
+</html>
