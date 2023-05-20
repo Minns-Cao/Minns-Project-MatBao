@@ -981,7 +981,7 @@ header .newPositonDoiQua {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #c31800, #e37300);
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 #partner .title {
@@ -996,14 +996,8 @@ header .newPositonDoiQua {
     font-size: 1.6rem;
 }
 
-#partner .images {
-    display: flex;
-    gap: 30px;
-}
-
 #partner .images .logo{
-    width: 140px;
-    height: 60px;
+    
 }
 
 /* ============================================================= */
