@@ -155,50 +155,14 @@ header .borderForSettingsHeader {
 }
 
 header .bannerTop {
-    position: relative;
-    width: 100vw;
-    height: 50px;
-    overflow: hidden;
-}
-
-header .bannerTop .slickSlide {
-    position: absolute;
-    display: block;
-    width: 100vw;
-    height: 50px;
-    transition:all 0.5s ease-in-out;
+    df
 }
 
 header .bannerTop .bannercell {
-    position: absolute;
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: 100%;
-    z-index: 1;
+    height: 50px;
 }
-
-header .bannerDesk {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-header .bannerTop .slickSlide:nth-child(1){
-    top: 0;
-    left: 100vw;
-}
-header .bannerTop .slickSlide:nth-child(2){
-    top: 0;
-    left: 0;
-}
-header .bannerTop .slickSlide:nth-child(3){
-    top: 0;
-    left: -100vw;
-}
-
-
 
 header .settings-header {
     display: flex;
@@ -730,7 +694,7 @@ header .newPositonDoiQua {
     border-radius: 4px;
 }
 
-.cloud-sever .toggleArea .switch::before {
+.cloud-sever .toggleArea .switch::before{
     position: absolute;
     display: block;
     content: "SSD";
@@ -738,16 +702,16 @@ header .newPositonDoiQua {
     right: 12px;
     font-size: 1rem;
     font-weight: bold;
-    color: #c2bcbc;
+    color: #c2bcbc;;
     z-index: 2;
     transition: all 0.2s ease-in-out;
 }
 
-.cloud-sever .toggleArea .switch:checked:before {
+.cloud-sever .toggleArea .switch:checked:before{
     color: #fff;
 }
 
-.cloud-sever .toggleArea .switch::after {
+.cloud-sever .toggleArea .switch::after{
     position: absolute;
     display: block;
     content: "HDD";
@@ -755,7 +719,7 @@ header .newPositonDoiQua {
     left: 12px;
     font-size: 1rem;
     font-weight: bold;
-    color: #fff;
+    color: #FFF;
     z-index: 2;
     transition: all 0.2s ease-in-out;
 }
@@ -783,7 +747,7 @@ header .newPositonDoiQua {
 
 .ssd {
     fill: #79bf16;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .cloud-sever .serviceNote .secondNote strong {

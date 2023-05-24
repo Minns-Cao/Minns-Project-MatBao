@@ -174,14 +174,17 @@ header .bannerTop .bannercell {
     display: block;
     width: 100%;
     height: 100%;
+    transition:all 0.5s ease-in-out;
     z-index: 1;
 }
 
 header .bannerDesk {
     position: absolute;
     display: block;
-    width: 100%;
-    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
     z-index: 0;
 }
 

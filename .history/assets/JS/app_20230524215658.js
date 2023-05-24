@@ -2,8 +2,8 @@
 
 setInterval(() => {
     let list_slickSlide = document.querySelectorAll('.slickSlide');
-    document.querySelector('.bannerTop .slide').appendChild(list_slickSlide[0]);
-},5000);
+    document.querySelector('.bannerTop .slide').appendChild(lis[0]);
+},3000);
 
 // ================Choose Language===================
 let languageNow = document.querySelector(".languageNow");

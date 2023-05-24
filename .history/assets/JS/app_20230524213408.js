@@ -1,10 +1,5 @@
 // ================BannerTop===================
-
-setInterval(() => {
-    let list_slickSlide = document.querySelectorAll('.slickSlide');
-    document.querySelector('.bannerTop .slide').appendChild(list_slickSlide[0]);
-},5000);
-
+let list_bannerCell = document.que
 // ================Choose Language===================
 let languageNow = document.querySelector(".languageNow");
 let languageList = document.querySelector(".languageList");
