@@ -208,13 +208,8 @@
     }
     /* hotlineMatbao */
     .hotlineBox {
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         row-gap: 20px;
-    }
-
-    .hotlineBox .itemInfo u {
-        display: none;
     }
 
 

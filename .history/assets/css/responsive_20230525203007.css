@@ -209,7 +209,7 @@
     /* hotlineMatbao */
     .hotlineBox {
         flex-direction: row-reverse;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         row-gap: 20px;
     }
 

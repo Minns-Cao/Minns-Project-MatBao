@@ -1382,7 +1382,7 @@ header .newPositonDoiQua {
     display: flex;
     width: 110%;
     justify-content: space-between;
-    z-index: 3;
+    z-index: ;
 }
 
 #next,
@@ -1443,6 +1443,7 @@ header .newPositonDoiQua {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
 }
+
 
 .sliderEvaluate .slide .item .name {
     text-align: center;
@@ -1687,7 +1688,7 @@ footer .copyright .boxSubLogo {
 }
 
 footer .copyrightBox .sub-logo {
-    filter: brightness(100000%);
+    filter: brightness(1000%);
     width: 120px;
     height: 40px;
     padding: 0 20px;
@@ -1701,7 +1702,7 @@ footer .copyrightBox .boxImages a {
 }
 
 footer .copyrightBox .boxImages a .logo {
-    filter: brightness(100000%);
+    filter: brightness(1000%);
     width: 80px;
     height: 40px;
 }

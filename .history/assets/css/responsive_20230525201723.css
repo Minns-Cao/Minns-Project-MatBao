@@ -156,16 +156,8 @@
     }
 
     /* certificates */
-    .certificates .item:not(:last-child) {
-        margin-bottom: 50px;
-    }
-
-    footer .certificates .myImgRow {
-        margin-top: 10px;
-    }
-
-    footer .address .item:not(:first-child) {
-        border: none;
+    .certificates .item:not() {
+        margin-bottom: 60px;
     }
 }
 
@@ -206,19 +198,7 @@
         width: 250px;
         transition: none;
     }
-    /* hotlineMatbao */
-    .hotlineBox {
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
 
-    .hotlineBox .itemInfo u {
-        display: none;
-    }
-
-
-    /* other */
     .backHotline .detailsBox .myBtn,
     .backHotline .detailsBox::before,
     .backHotline .detailsBox::after {
@@ -228,7 +208,6 @@
     .bestSeller::before {
         display: none;
     }
-
 }
 
 

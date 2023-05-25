@@ -99,17 +99,6 @@
     }
 
     /* sliderEvaluate */
-    .sliderEvaluate .slide {
-        height: 450px;
-    }
-
-    .sliderEvaluate .buttons {
-        justify-content: center;
-        gap: 30px;
-        top: 100%;
-        width: 200px;
-    }
-
     .sliderEvaluate .titleBox{
         flex-direction: column;
     }
@@ -147,25 +136,8 @@
         display: none !important;
     }
 
-    /* =================Footer================== */
-
-    /* infomationOfMatBao */
-    .infomationOfMatBao li,
-    .infomationOfMatBao h3 {
-        text-align: center;
-    }
-
-    /* certificates */
-    .certificates .item:not(:last-child) {
-        margin-bottom: 50px;
-    }
-
-    footer .certificates .myImgRow {
-        margin-top: 10px;
-    }
-
-    footer .address .item:not(:first-child) {
-        border: none;
+    .sliderEvaluate .buttons {
+        display: none !important;
     }
 }
 
@@ -203,22 +175,9 @@
 
     /* sliderEvaluate */
     .sliderEvaluate .slide .item {
-        width: 250px;
-        transition: none;
-    }
-    /* hotlineMatbao */
-    .hotlineBox {
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        row-gap: 20px;
+        w
     }
 
-    .hotlineBox .itemInfo u {
-        display: none;
-    }
-
-
-    /* other */
     .backHotline .detailsBox .myBtn,
     .backHotline .detailsBox::before,
     .backHotline .detailsBox::after {
@@ -228,7 +187,6 @@
     .bestSeller::before {
         display: none;
     }
-
 }
 
 

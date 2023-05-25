@@ -207,18 +207,9 @@
         transition: none;
     }
     /* hotlineMatbao */
-    .hotlineBox {
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
 
-    .hotlineBox .itemInfo u {
-        display: none;
-    }
+    
 
-
-    /* other */
     .backHotline .detailsBox .myBtn,
     .backHotline .detailsBox::before,
     .backHotline .detailsBox::after {

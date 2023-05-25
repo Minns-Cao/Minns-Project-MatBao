@@ -1687,7 +1687,7 @@ footer .copyright .boxSubLogo {
 }
 
 footer .copyrightBox .sub-logo {
-    filter: brightness(100000%);
+    filter: brightness(10000%);
     width: 120px;
     height: 40px;
     padding: 0 20px;
@@ -1701,7 +1701,7 @@ footer .copyrightBox .boxImages a {
 }
 
 footer .copyrightBox .boxImages a .logo {
-    filter: brightness(100000%);
+    filter: brightness(10000%);
     width: 80px;
     height: 40px;
 }
