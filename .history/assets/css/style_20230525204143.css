@@ -1496,7 +1496,7 @@ header .newPositonDoiQua {
 }
 
 .sliderEvaluate .slide .item:nth-child(3) .cmt {
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 10;
 }
 
 /* frequentlyQuestion */

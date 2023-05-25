@@ -203,17 +203,8 @@
 
     /* sliderEvaluate */
     .sliderEvaluate .slide .item {
-        width: 290px;
+        width: 250px;
         transition: none;
-    }
-
-    .sliderEvaluate .slide .item {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .sliderEvaluate .slide .item .cmt {
-        margin-bottom: 30px;
     }
     /* hotlineMatbao */
     .hotlineBox {

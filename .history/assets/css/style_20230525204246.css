@@ -1468,7 +1468,7 @@ header .newPositonDoiQua {
 .sliderEvaluate .slide .item:nth-child(2),
 .sliderEvaluate .slide .item:nth-child(4),
 .sliderEvaluate .slide .item:nth-child(5) {
-    width: 270px;
+    width: 280px;
     height: 260px;
     transform: translate(0, -50%);
     opacity: 0.7;
@@ -1496,7 +1496,7 @@ header .newPositonDoiQua {
 }
 
 .sliderEvaluate .slide .item:nth-child(3) .cmt {
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 6;
 }
 
 /* frequentlyQuestion */
