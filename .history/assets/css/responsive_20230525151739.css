@@ -1,0 +1,29 @@
+/* =================Responsive================== */
+
+@media (max-width: 768px) {
+/* =================Header================== */
+    .dinhvi, .settings, .changeLogo, .bannerTop {
+        display: none !important;
+    }
+
+
+/* =================Main================== */
+/* topbannerWordpress */
+
+    /* other */
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate .buttons {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media (min-width: 576px) {
+
+}
+
+
+

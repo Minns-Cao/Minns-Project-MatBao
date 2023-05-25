@@ -1,0 +1,67 @@
+/* =================Responsive================== */
+
+@media (max-width: 768px) {
+/* =================Header================== */
+    .dinhvi, .settings, .changeLogo, .bannerTop {
+        display: none !important;
+    }
+
+
+/* =================Main================== */
+    /* topbannerWordpress */
+    .topbannerWordpress .half-right {
+        display: none !important;
+    }
+
+    .topbannerWordpress .half-left {
+        width: 100%;
+    }
+
+    .topbannerWordpress .buttons {
+        flex-direction: column;
+    }
+
+    .topbannerWordpress .btnLinux, 
+    .topbannerWordpress .btnWindows {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .childOfBtnWindows .images {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .childOfBtnWindows .title {
+        text-align: center;
+    }
+
+    /* iconIntro */
+    .iconIntro .item {
+        margin-bottom: 40px;
+    }
+
+    /* other */
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate .buttons {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+    .childOfBtnWindows .thumb {
+        height: initial;
+    }
+
+    /* cloudSever */
+    .cloud-sever .text-intro {
+        flex-wrap: wrap;
+    }
+}
+
+
+

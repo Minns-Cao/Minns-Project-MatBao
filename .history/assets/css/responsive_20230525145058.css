@@ -1,0 +1,19 @@
+/* =================Responsive For Header================== */
+
+@media (max-width: 767px) {
+    .bannerTop {
+        display: none;
+    }
+
+    header .changeLogo {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (min-width: 576px) {
+
+}
+
+
+

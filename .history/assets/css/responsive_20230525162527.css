@@ -1,0 +1,131 @@
+/* =================Responsive================== */
+
+@media (max-width: 768px) {
+/* =================Header================== */
+    .dinhvi, .settings, .changeLogo, .bannerTop {
+        display: none !important;
+    }
+
+
+/* =================Main================== */
+    /* topbannerWordpress */
+    .topbannerWordpress .half-right {
+        display: none !important;
+    }
+
+    .topbannerWordpress .half-left {
+        width: 100%;
+    }
+
+    .topbannerWordpress .buttons {
+        flex-direction: column;
+    }
+
+    .topbannerWordpress .btnLinux, 
+    .topbannerWordpress .btnWindows {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .childOfBtnWindows .images {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .childOfBtnWindows .title {
+        text-align: center;
+    }
+
+    /* iconIntro */
+    .iconIntro .item {
+        margin-bottom: 40px;
+    }
+
+    /* formAdvise */
+    .formAdvise .boxFormAdvise {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formAdvise .boxFormAdvise .half-left,
+    .formAdvise .boxFormAdvise .half-right {
+        width: 100%;
+    }
+
+    .formAdvise .half-right .formArea {
+        margin: 0 auto;
+    }
+
+    /* yourChoose */
+    .yourChoose .buttons {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* stickyMenu */
+    .stickyMenu {
+        display: none;
+    }
+
+    /* accompaniedServiceBox */
+    .accompaniedServiceBox {
+        flex-direction: column;
+    }
+
+    .accompaniedServiceBox .half-left,
+    .accompaniedServiceBox .half-right {
+        width: 100%;
+    }
+
+    .accompaniedServiceBox .half-left .desc {
+        width: auto;
+    }
+
+    /* featuresComparison */
+    #featuresComparison th img {
+        display: none;
+    }
+
+    #featuresComparison td:first-child {
+        padding-left: 10px;
+    }
+
+    /* backHotline */
+    .backHotline .mbRow {
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* other */
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate .buttons {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+
+    .childOfBtnWindows .thumb {
+        height: initial;
+    }
+
+    /* cloudSever */
+    .cloud-sever .text-intro {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .bestSeller::before {
+        display: none;
+    }
+}
+
+
+

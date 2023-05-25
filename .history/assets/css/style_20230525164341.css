@@ -1460,7 +1460,7 @@ header .newPositonDoiQua {
 }
 
 .sliderEvaluate .slide .item:nth-child(3) {
-    z-index: 2;
+    z-index: ;
 }
 
 .sliderEvaluate .slide .item:nth-child(1),

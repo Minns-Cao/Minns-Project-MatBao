@@ -1,0 +1,47 @@
+/* =================Responsive================== */
+
+@media (max-width: 768px) {
+/* =================Header================== */
+    .dinhvi, .settings, .changeLogo, .bannerTop {
+        display: none !important;
+    }
+
+
+/* =================Main================== */
+    /* topbannerWordpress */
+    .topbannerWordpress .half-right {
+        display: none !important;
+    }
+
+    .topbannerWordpress .half-left {
+        width: 100%;
+    }
+
+    .topbannerWordpress .buttons {
+        flex-direction: column;
+    }
+
+    .topbannerWordpress .btnLinux, 
+    .topbannerWordpress .btnWindows {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    /* other */
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate .buttons {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media (min-width: 576px) {
+
+}
+
+
+

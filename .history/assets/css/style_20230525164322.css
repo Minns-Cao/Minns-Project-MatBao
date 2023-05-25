@@ -1459,10 +1459,6 @@ header .newPositonDoiQua {
     animation: showInfoSlide_desc 0.6s ease-in-out 1 forwards;
 }
 
-.sliderEvaluate .slide .item:nth-child(3) {
-    z-index: 2;
-}
-
 .sliderEvaluate .slide .item:nth-child(1),
 .sliderEvaluate .slide .item:nth-child(2),
 .sliderEvaluate .slide .item:nth-child(4),
@@ -1496,6 +1492,7 @@ header .newPositonDoiQua {
 
 .sliderEvaluate .slide .item:nth-child(3) .cmt {
     -webkit-line-clamp: 5;
+    z
 }
 
 /* frequentlyQuestion */

@@ -1,0 +1,32 @@
+/* =================Responsive For Header================== */
+
+@media (max-width: 768px) {
+    
+    .bannerTop {
+        display: none;
+    }
+
+    .changeLogo {
+        display: none !important;
+    }
+
+    .settings {
+        display: none !important;
+    }
+
+
+    other
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate
+}
+
+/* mobile */
+@media (min-width: 576px) {
+
+}
+
+
+

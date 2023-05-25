@@ -179,10 +179,10 @@ let topbannerWordPress = document.querySelector(".topbannerWordpress");
 const template_childOfBtnWindows = `<div  class="childOfBtnWindows container-fluid">
 <div class="container">
     <div class="row">
-        <div class="col-lg-6 images">
+        <div class="col-sm-6">
             <img src="./assets/img/imgMain/IPfree-01.svg" alt="ipFree" class="thumb">
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
             <div class="title">Miễn phí một địa chỉ IP <br/> (Public IP)</div>
             <div class="desc">Địa chỉ IP tĩnh được cấp phát dành riêng cho Cloud Server của bạn, đây chính là địa chỉ để tất cả các thiết bị điện tử và máy tính có thể nhận diện và liên lạc với Cloud Server của bạn thông qua Internet. Nói cách khác, địa chỉ IP tĩnh sẽ giúp cho Cloud Server của bạn trở nên uy tín hơn.</div>
         </div>

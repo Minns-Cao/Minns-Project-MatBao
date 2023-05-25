@@ -1,0 +1,37 @@
+/* =================Responsive For Header================== */
+
+@media (max-width: 768px) {
+    .bannerTop {
+        display: none;
+    }
+
+    .changeLogo {
+        display: none !important;
+    }
+
+    .settings {
+        display: none !important;
+    }
+
+    .dinhvi, .settings, .changeLogo, {
+        display: none !important;
+    }
+
+
+    /* other */
+    #captchatBaoGia {
+        display: none !important;
+    }
+
+    .sliderEvaluate .buttons {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media (min-width: 576px) {
+
+}
+
+
+
