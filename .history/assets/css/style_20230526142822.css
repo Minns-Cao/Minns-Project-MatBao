@@ -497,11 +497,11 @@ header .newPositonDoiQua {
 
 .settingsMb .closeBtn {
     display: block;
-    margin: 15px 10px 5px auto;
+    margin: 10px 10px 5px auto;
     border: none;
-    color: #212121;
+    color: ;
     background-color: transparent;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .settingsMb .navMb {
@@ -528,7 +528,7 @@ header .newPositonDoiQua {
 
 .settingsMb .navMb .item .seeMore {
     position: absolute;
-    right: 23px;
+    right: 22px;
 }
 
 .settingsMb .navMb .item .sub-menu-mb {

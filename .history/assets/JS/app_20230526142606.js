@@ -486,12 +486,14 @@ list_btnSeeMore_SettingMb.forEach((btnSeeMore_SettingMb) => {
     btnSeeMore_SettingMb.onclick = () => {
         subMenu_SettingMb.classList.toggle("hidden");
         if (subMenu_SettingMb.classList.contains("hidden")) {
+            
+        } else {
             btnSeeMore_SettingMb.firstChild.remove();
             btnSeeMore_SettingMb.insertAdjacentHTML(
                 "afterbegin",
                 '<i class="fa-solid fa-chevron-down"></i>'
             );
-        } else {
+
             btnSeeMore_SettingMb.firstChild.remove();
             btnSeeMore_SettingMb.insertAdjacentHTML(
                 "afterbegin",
