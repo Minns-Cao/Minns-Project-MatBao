@@ -481,22 +481,14 @@ let list_btnSeeMore_SettingMb = document.querySelectorAll(
 );
 
 list_btnSeeMore_SettingMb.forEach((btnSeeMore_SettingMb) => {
-    let subMenu_SettingMb =
-        btnSeeMore_SettingMb.parentElement.querySelector(".sub-menu-mb");
+    let subMenu_SettingMb = btnSeeMore_SettingMb.parentElement.querySelector(".sub-menu-mb");
     btnSeeMore_SettingMb.onclick = () => {
         subMenu_SettingMb.classList.toggle("hidden");
-        if (subMenu_SettingMb.classList.contains("hidden")) {
-            btnSeeMore_SettingMb.firstChild.remove();
-            btnSeeMore_SettingMb.insertAdjacentHTML(
-                "afterbegin",
-                '<i class="fa-solid fa-chevron-up"></i>'
-            );
+        if(subMenu_SettingMb.classList.contains("hidden")){
+            console.log("no");
+            console.log(btnSeeMore_SettingMb.firstChild).remove();
         } else {
-            btnSeeMore_SettingMb.firstChild.remove();
-            btnSeeMore_SettingMb.insertAdjacentHTML(
-                "afterbegin",
-                '<i class="fa-solid fa-chevron-down"></i>'
-            );
+            console.log("yes");
         }
     };
 });

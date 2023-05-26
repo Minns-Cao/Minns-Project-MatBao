@@ -492,6 +492,7 @@ list_btnSeeMore_SettingMb.forEach((btnSeeMore_SettingMb) => {
                 '<i class="fa-solid fa-chevron-up"></i>'
             );
         } else {
+            console.log("yes");
             btnSeeMore_SettingMb.firstChild.remove();
             btnSeeMore_SettingMb.insertAdjacentHTML(
                 "afterbegin",
