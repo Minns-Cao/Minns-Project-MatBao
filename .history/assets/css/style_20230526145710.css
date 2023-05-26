@@ -475,13 +475,12 @@ header .newPositonDoiQua {
 
 /* settingsMb */
 .settings-header .btnOpenSettings {
-    display: none;
+    d
     margin-right: 5px;
     font-size: 3rem;
 }
 
 .settingsMb {
-    display: none;
     position: fixed;
     top: -100vh;
     right: 0;

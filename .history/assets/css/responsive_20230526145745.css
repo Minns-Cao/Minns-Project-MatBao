@@ -6,10 +6,10 @@
         display: none !important;
     }
 
-    .settings-header .btnOpenSettings,
-    .settingsMb {
+    .settings-header .btnOpenSettings {
         display: block;
     }
+
 
 /* =================Main================== */
     /* topbannerWordpress */

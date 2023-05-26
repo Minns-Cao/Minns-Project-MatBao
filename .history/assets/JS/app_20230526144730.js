@@ -476,6 +476,30 @@ closeBtn_SettingMb.onclick = () => {
 };
 
 //See More
+// let list_btnSeeMore_SettingMb = document.querySelectorAll(
+//     ".settingsMb .seeMore"
+// );
+
+// list_btnSeeMore_SettingMb.forEach((btnSeeMore_SettingMb) => {
+//     let subMenu_SettingMb =
+//         btnSeeMore_SettingMb.parentElement.querySelector(".sub-menu-mb");
+//     btnSeeMore_SettingMb.onclick = () => {
+//         subMenu_SettingMb.classList.toggle("hidden");
+//         if (subMenu_SettingMb.classList.contains("hidden")) {
+//             btnSeeMore_SettingMb.firstChild.remove();
+//             btnSeeMore_SettingMb.insertAdjacentHTML(
+//                 "afterbegin",
+//                 '<i class="fa-solid fa-chevron-down"></i>'
+//             );
+//         } else {
+//             btnSeeMore_SettingMb.firstChild.remove();
+//             btnSeeMore_SettingMb.insertAdjacentHTML(
+//                 "afterbegin",
+//                 '<i class="fa-solid fa-chevron-up"></i>'
+//             );
+//         }
+//     };
+// });
 
 let list_itemMb = document.querySelectorAll(".settingsMb .item");
 list_itemMb.forEach((itemMb) => {
